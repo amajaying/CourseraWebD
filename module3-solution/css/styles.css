@@ -1,0 +1,72 @@
+/*HEADER*/
+
+* {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+a:active,
+a:hover,
+a:visited,
+a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    opacity: .8;
+}
+
+#navbar {
+    background-color: brown;
+    width: 100%;
+    border-radius: 0;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+.container #nav-list li a,
+#brandname {
+    color: #fff;
+}
+
+#brandname {
+    font-size: 1.7em;
+}
+
+#toggle span {
+    background-color: #fff;
+}
+
+#headtitle {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.card {
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    color: rgb(255, 174, 0);
+    margin-bottom: 20px;
+}
+
+#top {
+    border-radius: 5px;
+    background-color: tomato;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    #nav-list {
+        text-align: center;
+    }
+}
